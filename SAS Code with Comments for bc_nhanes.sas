@@ -1,3 +1,31 @@
+/*******************************************************************************************
+ Project Title: NHANES Breast Cancer Analysis (2017–2020)
+ Author      : Nuzhat Faizah
+ Platform    : SAS Studio on Demand
+ Description : This end-to-end SAS project explores associations between various
+                demographic, behavioural, and clinical predictors and self-reported
+                breast cancer diagnosis among U.S. women using NHANES 2017–March 2020 data.
+
+                Workflow includes:
+                - Importing and subsetting multiple NHANES .xpt files (DEMOGRAPHIC, EXAM, LAB, etc.)
+                - Creating and labelling derived variables
+                - Merging datasets into a master analytic file (females only)
+                - Conducting bivariate and multivariate analysis using survey procedures
+                - Fitting logistic regression models including interaction effects
+                - Producing descriptive and inferential outputs for interpretation
+
+                All analyses account for NHANES’ complex survey design using weights,
+                strata, and clustering variables to ensure nationally representative results.
+
+                Last but not least, this is my first humble effort to execute an entire
+                project using SAS Studio on Demand, including logistic regression modelling.
+                I know I still have much to learn, so please feel free to leave any 
+                constructive feedback. Thank you!
+
+ Created      : [30th April 2025]
+ Last Updated : [25th June 2025]
+*******************************************************************************************/
+
 /****************************************************/
 /* DEFINING THE INDEPENDENT and DEPENDENT VARIABLES
 /****************************************************/
